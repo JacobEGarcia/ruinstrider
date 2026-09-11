@@ -57,6 +57,7 @@ canvas{display:block;width:100%;height:100%;cursor:crosshair;touch-action:none}
 .actions{display:grid;grid-template-columns:55px 55px;gap:10px;align-items:end}
 .actions button{height:55px;border-radius:50%;border:1px solid #70ffe166;background:#071b1dcc;color:#fff;font:9px ui-monospace;letter-spacing:.1em;touch-action:none}
 .actions .dash{grid-column:1/3;margin:auto;width:55px}
+@media(max-width:600px){.boss{width:58vw;top:52px}.mission{top:106px;font-size:9px}.top{padding:14px 16px}}
 @media(pointer:coarse){.mobile{display:flex}.hud{bottom:calc(140px + env(safe-area-inset-bottom))}.prompt{bottom:calc(150px + env(safe-area-inset-bottom))}canvas{cursor:default}}
 </style>
 </head>
